@@ -16,7 +16,11 @@ public class Persona {
        
         this.edad++;
         
-        System.out.println("¡Feliz Cumpleaños, " + this.nombre + "! Ahora tienes " + this.edad + " años.");
+        System.out.println("¡Feliz Cumpleaños, " + this.nombre +" " + this.apellidos + "! Ahora tienes " + this.edad + " años.");
+    }
+    public void DatosPersona() {
+      System.out.println("Eres: " + this.nombre +" " + this.apellidos + " y tienes " + this.edad + " años.");
+
     }
 
    
